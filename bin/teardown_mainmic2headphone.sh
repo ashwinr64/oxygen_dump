@@ -1,0 +1,13 @@
+tinymix 'DEC1 MUX' 'ZERO'
+tinymix 'ADC2 MUX' 'ZERO'
+tinymix 'RDAC2 MUX' 'ZERO'
+tinymix 'IIR1 INP1 MUX' 'ZERO'
+tinymix 'RX2 MIX1 INP2' 'ZERO'
+tinymix 'RX1 MIX1 INP1' 'ZERO'
+tinymix 'HPHL' 'ZERO'
+tinymix 'HPHR' 'ZERO'
+tinymix 'COMP0 RX1' '0'
+tinymix 'COMP0 RX2' '0'
+tinymix 'LOOPBACK Mode' 'DISABLE'
+tinymix 'Loopback MCLK' 'DISABLE'
+

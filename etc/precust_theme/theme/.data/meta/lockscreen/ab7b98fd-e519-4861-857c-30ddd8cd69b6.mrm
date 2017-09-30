@@ -1,0 +1,89 @@
+{
+  "localId": "ab7b98fd-e519-4861-857c-30ddd8cd69b6",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "fe12ae789533ddbbf37c62f11c9600b06ac74826",
+  "platform": 6,
+  "size": 703405,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "MIUI"
+  },
+  "designers": {
+    "fallback": "MIUI"
+  },
+  "titles": {
+    "uk_UA": "Безмежність",
+    "hi_IN": "असीमित",
+    "lt_LT": "Beribis",
+    "ug_CN": "چەكسىز",
+    "ms_MY": "Tiada Batasa",
+    "vi_VN": "Không giới h",
+    "bn_BD": "সীমাহীন",
+    "ru_RU": "Безграничнос",
+    "ko_KR": "리미트리스",
+    "pt_BR": "Limitless",
+    "ar_EG": "بلا حدود",
+    "kn_IN": "ಅಪಾರ",
+    "iw_IL": "ללא גבולות",
+    "zh_TW": "無界",
+    "bn_IN": "সীমাহীন",
+    "pa_IN": "ਅਸੀਮਿਤ",
+    "ml_IN": "അതിരറ്റത്",
+    "en_US": "Limitless",
+    "tr_TR": "Sınırsız",
+    "th_TH": "ไร้ขีดจำกัด",
+    "zh_CN": "无界",
+    "ne_NP": "अपार",
+    "as_IN": "সীমাহীন",
+    "ur_IN": "لامحدود",
+    "in_ID": "Tanpa Batas",
+    "ro_RO": "Nelimitat",
+    "es_US": "Ilimitado",
+    "te_IN": "అపరిమితం",
+    "mr_IN": "अमर्याद",
+    "ja_JP": "リミットレス",
+    "uz_UZ": "Cheksiz",
+    "ne_IN": "अपार",
+    "fr_FR": "Illimité",
+    "pl_PL": "Bez ogranicz",
+    "ta_IN": "வானமே எல்லை",
+    "es_ES": "Sin límites",
+    "cs_CZ": "Nekonečno",
+    "it_IT": "Senza limiti",
+    "gu_IN": "અસીમિત",
+    "bo_CN": "མཚམས་མེད།",
+    "ur_PK": "لامحدود",
+    "or_IN": "ସୀମାବିହୀନ",
+    "fa_IR": "بی‌کران"
+  },
+  "descriptions": {},
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_lockscreen_0.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_lockscreen_0.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "ebfce684-1d1e-4a70-ae14-f7ca038f4d34",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null
+}

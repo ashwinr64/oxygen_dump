@@ -1,0 +1,12 @@
+tinymix 'LOOPBACK Mode' 'ENABLE'
+tinymix 'DEC1 MUX' 'ADC1'
+tinymix 'RDAC2 MUX' 'RX2'
+tinymix 'COMP0 RX1' '1'
+tinymix 'COMP0 RX2' '1'
+tinymix 'IIR1 INP1 MUX' 'DEC1'
+tinymix 'RX1 MIX1 INP1' 'IIR1'
+tinymix 'HPHL' 'Switch'
+tinymix 'RX2 MIX1 INP2' 'IIR1'
+tinymix 'HPHR' 'Switch'
+tinymix 'Loopback MCLK' 'ENABLE'
+

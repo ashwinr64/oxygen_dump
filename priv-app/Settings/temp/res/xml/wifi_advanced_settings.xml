@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/wifi_advanced_titlebar">
+
+
+   <PreferenceCategory android:title = "@string/wifi_settings_category" />
+    <com.android.settings.MiuiListPreference
+            android:key="sleep_policy"
+            android:title="@string/wifi_setting_sleep_policy_title"
+            android:persistent="false"
+            android:entries="@array/wifi_sleep_policy_entries"
+            android:entryValues="@array/wifi_sleep_policy_values"
+            />
+
+    <com.android.settings.MiuiListPreference
+            android:key="wifi_assistant"
+            android:title="@string/wifi_automatically_connect_title"
+            android:summary="@string/wifi_automatically_connect_summary"
+            android:dialogTitle="@string/wifi_select_assistant_dialog_title"
+            android:persistent="false" />
+
+    <CheckBoxPreference
+            android:key="wifi_scan_always_available"
+            android:title="@string/wifi_scan_always_available"
+            android:summary="@string/wifi_scan_always_available_summary"
+            android:persistent="false" />
+
+    <CheckBoxPreference
+            android:key="wifi_verbose_logging"
+            android:title="@string/wifi_verbose_logging"/>
+
+    <com.android.settings.MiuiListPreference
+            android:key="frequency_band"
+            android:title="@string/wifi_setting_frequency_band_title"
+            android:summary="@string/wifi_setting_frequency_band_summary"
+            android:persistent="false"
+            android:entries="@array/wifi_frequency_band_entries"
+            android:entryValues="@array/wifi_frequency_band_values" />
+
+    <Preference
+            android:key="install_credentials"
+            android:title="@string/wifi_install_credentials"
+            android:persistent="false" />
+
+    <com.android.settings.MiuiListPreference
+            android:key="select_ssid_type"
+            android:title="@string/select_ssid_type_title"
+            android:persistent="false"
+            android:entries="@array/wifi_ssid_type_entries"
+            android:entryValues="@array/wifi_ssid_type_values" />
+
+    <com.android.settings.MiuiListPreference
+            android:key="connect_type"
+            android:title="@string/gsm_to_wifi_connect_type_title"
+            android:persistent="false"
+            android:entries="@array/wifi_connect_type_entries"
+            android:entryValues="@array/wifi_connect_type_values" />
+
+    <CheckBoxPreference
+            android:key="dialog_remind_type"
+            android:title="@string/wifi_dialog_remind_type_title"
+            android:persistent="false" />
+
+    <CheckBoxPreference
+            android:key="priority_type"
+            android:title="@string/wifi_priority_type_title"
+            android:summary="@string/wifi_priority_type_summary"
+            android:persistent="false" />
+
+    <Preference
+            android:key="priority_settings"
+            android:title="@string/wifi_priority_settings_title"
+            android:summary="@string/wifi_priority_settings_summary"
+            android:dependency="priority_type"
+            android:persistent="false">
+    </Preference>
+
+    <Preference android:key="mac_address"
+        style="?android:attr/preferenceInformationStyle"
+        android:title="@string/wifi_advanced_mac_address_title"
+        />
+
+    <Preference android:key="current_ip_address"
+        style="?android:attr/preferenceInformationStyle"
+        android:title="@string/wifi_advanced_ip_address_title"
+        />
+    <Preference
+            android:key="wifi_direct"
+            android:title="@string/wifi_menu_p2p"
+            android:persistent="false" />
+     <PreferenceCategory
+            android:title="@string/wps_category">
+        <Preference
+                android:key="wps_connect"
+                android:title="@string/wps_connect_title"
+                android:summary="@string/wps_connect_summary"
+                android:fragment="com.android.settings.wifi.WpsFragment"
+                android:persistent="false">
+        </Preference>
+        <Preference
+                android:key="wps_pin"
+                android:title="@string/wifi_menu_wps_pin"
+                android:summary="@string/wps_connect_summary"
+                android:fragment="com.android.settings.wifi.WpsFragment"
+                android:persistent="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
